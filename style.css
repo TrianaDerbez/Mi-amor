@@ -59,8 +59,8 @@ body{
 }
 
 .hoja-real{
-    width:720px;
-    height:860px;
+    width:min(720px, 95vw);
+    height:min(860px, 95vh);
     max-width:92vw;
     max-height:92vh;
     position:relative;
@@ -497,4 +497,28 @@ body{
     letter-spacing:1px;
     font-style:italic;
 }
+
+@media (max-width: 768px){
+
+    body{
+        overflow-x:hidden;
+    }
+
+    .escenario{
+        align-items:flex-start;
+        padding-top:20px;
+    }
+
+    .hoja-real{
+        transform:scale(0.88);
+        transform-origin:top center;
+    }
+
+    .portada-imagen{
+        width:95vw;
+        height:82vh;
+    }
+
+}
+
 
