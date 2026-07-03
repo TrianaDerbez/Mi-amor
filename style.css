@@ -561,3 +561,84 @@ body{
     }
 
 }
+@media (max-width: 768px){
+
+    .hoja-carta{
+        width:92vw;
+        min-height:auto;
+        padding:45px 26px;
+    }
+
+    .hoja-carta h1{
+        font-size:32px;
+        line-height:1.15;
+    }
+
+    .texto-carta{
+        font-size:18px;
+        line-height:1.38;
+        margin-top:18px;
+        max-width:100%;
+    }
+
+    .final{
+        height:auto;
+        min-height:100vh;
+        padding:35px 18px;
+        overflow-y:auto;
+    }
+
+    .contenido-final{
+        width:100%;
+        max-width:360px;
+        margin:0 auto;
+    }
+
+    .final h1{
+        font-size:42px;
+        line-height:1.05;
+    }
+
+    .final h2{
+        font-size:32px;
+    }
+
+    .mensaje-final{
+        font-size:20px;
+        line-height:1.3;
+    }
+
+    .firma{
+        font-size:21px;
+    }
+
+    .polaroids-final{
+        margin-top:28px;
+        gap:14px;
+    }
+
+    .polaroid-final{
+        width:135px;
+        height:175px;
+        padding:8px 8px 32px;
+    }
+
+    .fecha{
+        font-size:17px;
+        margin-top:24px;
+    }
+
+    .recuerdo{
+        font-size:18px;
+        line-height:1.25;
+    }
+
+    .infinito{
+        font-size:26px;
+    }
+
+    .historia-sigue{
+        font-size:15px;
+    }
+}
+
