@@ -642,3 +642,61 @@ body{
     }
 }
 
+@media (max-width: 768px){
+
+    .final{
+        min-height:100vh !important;
+        height:auto !important;
+        padding:20px 14px 80px !important;
+        overflow-y:auto !important;
+    }
+
+    .contenido-final{
+        max-width:330px !important;
+        transform:scale(.78) !important;
+        transform-origin:top center !important;
+        margin:0 auto !important;
+    }
+
+    .final h1{
+        font-size:36px !important;
+        line-height:1 !important;
+    }
+
+    .final h2{
+        font-size:28px !important;
+    }
+
+    .mensaje-final{
+        font-size:17px !important;
+        line-height:1.25 !important;
+        margin-top:20px !important;
+    }
+
+    .firma{
+        font-size:18px !important;
+        margin-top:18px !important;
+    }
+
+    .polaroid-final{
+        width:120px !important;
+        height:155px !important;
+        padding:7px 7px 28px !important;
+    }
+
+    .polaroids-final{
+        gap:8px !important;
+        margin-top:20px !important;
+    }
+
+    .fecha{
+        font-size:15px !important;
+        margin-top:20px !important;
+    }
+
+    .recuerdo{
+        font-size:16px !important;
+    }
+}
+
+
