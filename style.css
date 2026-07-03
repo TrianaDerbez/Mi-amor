@@ -500,58 +500,64 @@ body{
 
 @media (max-width: 768px){
 
-    body{
-        overflow-x:hidden;
-    }
-
-    .escenario{
-        align-items:flex-start;
-        padding-top:20px;
-    }
-
-    .hoja-real{
-        transform:scale(0.88);
-        transform-origin:top center;
-    }
-
-    .portada-imagen{
-        width:95vw;
-        height:82vh;
-    }
-
-@media (max-width: 768px){
-
-    html,
-    body{
+    html, body{
         width:100%;
         max-width:100%;
         overflow-x:hidden;
+        overflow-y:auto;
     }
 
     .escenario{
         width:100%;
+        min-height:100vh;
+        height:auto;
         overflow-x:hidden;
+        align-items:flex-start;
+        padding-top:18px;
+    }
+
+    .hoja-real{
+        width:92vw;
+        height:auto;
+        min-height:92vh;
+        max-height:none;
+        padding:55px 24px;
+        overflow:hidden;
+    }
+
+    .hoja-real h1{
+        font-size:42px;
+        line-height:1.15;
+        margin-top:0;
+        margin-bottom:18px;
+    }
+
+    .separador span{
+        width:80px;
     }
 
     .polaroid{
-        width:82vw;
+        width:78vw;
         height:360px;
-        transform:rotate(0deg);
-        margin-left:auto;
-        margin-right:auto;
+        transform:none;
+        margin:20px auto 25px;
     }
 
     .foto-grande{
         width:78vw;
-        height:250px;
-        transform:rotate(0deg);
-        margin-left:auto;
-        margin-right:auto;
+        height:240px;
+        transform:none;
+        margin:25px auto 25px;
     }
 
-    .hoja-real{
-        overflow:hidden;
+    .frase{
+        font-size:28px;
+        line-height:1.35;
+        margin-top:25px;
+    }
+
+    .flecha{
+        margin-top:28px;
     }
 
 }
-
