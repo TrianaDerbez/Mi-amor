@@ -519,6 +519,39 @@ body{
         height:82vh;
     }
 
-}
+@media (max-width: 768px){
 
+    html,
+    body{
+        width:100%;
+        max-width:100%;
+        overflow-x:hidden;
+    }
+
+    .escenario{
+        width:100%;
+        overflow-x:hidden;
+    }
+
+    .polaroid{
+        width:82vw;
+        height:360px;
+        transform:rotate(0deg);
+        margin-left:auto;
+        margin-right:auto;
+    }
+
+    .foto-grande{
+        width:78vw;
+        height:250px;
+        transform:rotate(0deg);
+        margin-left:auto;
+        margin-right:auto;
+    }
+
+    .hoja-real{
+        overflow:hidden;
+    }
+
+}
 
